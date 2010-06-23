@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "immortalize"
+    gem.name = "mhs-immortalize"
     gem.summary = %Q{Restarts a specified process if it dies.}
     gem.description = %Q{Watch a specific process, restart it if it dies.}
-    gem.email = "gems@behindlogic.com"
-    gem.homepage = "http://github.com/dcparker/immortalize"
-    gem.authors = ["BehindLogic"]
+    gem.email = "humans+rubygems@mutuallyhuman.com"
+    gem.homepage = "http://github.com/mhs/immortalize"
+    gem.authors = ["Mutually Human Software", "BehindLogic"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
