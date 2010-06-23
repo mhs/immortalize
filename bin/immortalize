@@ -157,7 +157,7 @@ class Immortal
   def stop!
     if running?
       pid = $registry[identifier].delete(:pid)
-      `kill -INT #{pid}`
+      `kill -TERM #{pid}`
       puts "attempted to kill pid #{pid}: \"#{@reg[:command]}\""
     else
       warn "\"#{@reg[:command]}\" not running!"
